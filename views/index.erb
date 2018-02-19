@@ -1,14 +1,19 @@
 <html>
-<head></head>
+<head>
+  <title>Caesar cypher</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
+<div class="container">
 <h3>Type a word and how many times you want it to be shifted</h3>
 <form>
-  <input type="text" name="word">
-  <input type="number" name="shift">
+  <input type="text" name="word" placeholder="word">
+  <input type="number" name="shift" placeholder="0">
   <input type="submit" value="Convert">
 </form>
 
 <h4>The converted word is: <%= result unless result.nil? %> </h4>
+</div>
 </body>
 </html>
 

@@ -9,9 +9,6 @@ get '/' do
 end
 
 
-
-
-
 def caesar_cypher(string, shift)
   low_case = ('a'..'z').to_a
   up_case = ('A'..'Z').to_a
